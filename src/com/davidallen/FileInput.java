@@ -6,9 +6,16 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Created by mgreen14 on 12/27/17.
+ * The FileInput class facilitates the input of data from a file
+ *
+ * @author dallen23 on 8/29/2018
+ * @version 1.1
  */
 public class FileInput {
+
+    /**
+     * @param fileName name of the file being input
+     */
 
     private BufferedReader in = null;
     private String fileName;

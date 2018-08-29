@@ -1,9 +1,16 @@
 package com.davidallen;
 
 /**
- * Created by mgreen14 on 12/27/17. 989
+ * The Dog class is an extension of the pet class which allows for creation of a dog object
+ *
+ * @author dallen23 on 8/29/2018
+ * @version 1.1
  */
 public class Dog extends Pet implements Talkable {
+
+    /**
+     * @param friendly a boolean of friendly or not
+     */
     private boolean friendly;
 
     public Dog(boolean friendly, String name) {

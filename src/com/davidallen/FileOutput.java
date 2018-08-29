@@ -3,11 +3,17 @@ package com.davidallen;
 import java.io.*;
 
 /**
- * Created by mgreen14 on 12/27/17. 999
+ * The FileOutput facilitates the output of data.
+ *
+ * @author dallen23 on 8/29/2018
+ * @version 1.1
  */
 public class FileOutput {
 
-    int x = 1;
+    /**
+     * @param fileName name of file being output
+     */
+
     Writer out = null;
     private String fileName;
 

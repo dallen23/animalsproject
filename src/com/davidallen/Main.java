@@ -2,6 +2,11 @@ package com.davidallen;
 
 import java.util.ArrayList;
 
+/**
+ * This is the main method for the animals project
+ * @author dallen23
+ * @version 1.1
+ */
 public class Main {
 
     private final static FileOutput outFile = new FileOutput("animals.txt");
