@@ -3,10 +3,11 @@ package com.davidallen;
 import java.io.*;
 
 /**
- * Created by mgreen14 on 12/27/17.
+ * Created by mgreen14 on 12/27/17. 999
  */
 public class FileOutput {
 
+    int x = 1;
     Writer out = null;
     private String fileName;
 
